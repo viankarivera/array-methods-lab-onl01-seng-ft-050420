@@ -1,9 +1,9 @@
 def using_include(array, element)
-  using_include?(array, element1)
+  array.include?(element)
 end
 
 def using_sort(array)
-  using_sort(array).last
+  using_sort.sort 
 end
 
 def using_reverse(array)
@@ -11,7 +11,7 @@ def using_reverse(array)
 end
 
 def using_first(array)
-
+  using_first(array)
 end
 
 def using_last(array)
